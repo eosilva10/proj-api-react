@@ -7,7 +7,7 @@ import axios from 'axios';
 // CRIANDO A INSTÂNCIA AXIOS
 // PASSANDO A URL DA API QUE IREMOS RETORNAR(MAZE.TV)
 const api = axios.create({
-    baseURL: 'https://api.tvmaze.com/search/shows?q=breaking%20bad'
+    baseURL: 'https://api.tvmaze.com/search/shows?q='
 });
 
 // EXPORT DO COMPONENTE SEM ESTADO
